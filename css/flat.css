@@ -1,0 +1,494 @@
+/* Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:http://developer.yahoo.com/yui/license.html
+version:2.9.0 */
+body {
+    margin: 0px
+}
+h1 {
+    font-size: 138.5%
+}
+h2 {
+    font-size: 123.1%
+}
+h3 {
+    font-size: 108%
+}
+h1, h2, h3 {
+    margin: 1em 0
+}
+h1, h2, h3, h4, h5, h6, strong, dt {
+    font-weight: bold
+}
+optgroup {
+    font-weight: normal
+}
+abbr, acronym {
+    border-bottom: 1px dotted #000;
+    cursor: help
+}
+em {
+    font-style: italic
+}
+del {
+    text-decoration: line-through
+}
+blockquote, ul, ol, dl {
+    margin: 1em
+}
+ol, ul, dl {
+    margin-left: 2em
+}
+ol {
+    list-style: decimal outside
+}
+ul {
+    list-style: disc outside
+}
+dl dd {
+    margin-left: 1em
+}
+th, td {
+    border: 1px solid #000;
+    padding: .5em
+}
+th {
+    font-weight: bold;
+    text-align: center
+}
+caption {
+    margin-bottom: .5em;
+    text-align: center
+}
+sup {
+    vertical-align: super
+}
+sub {
+    vertical-align: sub
+}
+p, fieldset, table, pre {
+    margin-bottom: 1em
+}
+button, input[type="checkbox"], input[type="radio"], input[type="reset"], input[type="submit"] {
+    padding: 1px
+}
+img {
+    -ms-interpolation-mode: bicubic
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-bottom: 60px;
+    line-height: 100%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
+a#viewAllDevices {
+    margin-top: 50px;
+    display: block;
+}
+#tools {
+    background: #4c656c;
+    margin: 0px;
+    color: white;
+    height: 45px;
+    display: block;
+    width: 100%;
+}
+input#url {
+    padding: 5px 10px 7px 10px;
+    margin-left: 5px;
+    width: 250px;
+    color: white;
+    background: #8a9a9f;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    border-radius: 3px;
+    font-family: helvetica, arial, sans-serif;
+}
+.deviceTitle, .jobAd {
+    font-family: georgia, helvetica, arial, sans-serif;
+}
+.deviceTitle {
+    font-size: 14px;
+}
+.deviceTitle, #devices .deviceWrap, #tools {
+    min-width: 1024px;
+}
+.footer_links {
+    text-align: center;
+    margin-top: 40px;
+}
+.footer_links a {
+    color: #1BA4D6;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 1px;
+}
+
+/* * Devices styles start */
+#devices {
+    text-align: center;
+    margin-top: 60px;
+}
+.deviceWrap {
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 60px 0px 20px 0px;
+    position: relative;
+}
+#devices .device {
+    margin: 0 auto;
+    position: relative;
+}
+#devices .device .flashingTop, #devices .device .flashingBottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+#devices .device .flashingTop {
+    top: 0;
+    padding-top: 4px;
+}
+#devices .device .flashingBottom {
+    bottom: 0;
+}
+#devices iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 1px solid #d1d1d1;
+}
+.iphone-portrait {
+    background-image: url(../images/iphone-portrait.png);
+    padding: 115px 0 117px 0px;
+}
+.iphone-landscape {
+    background-image: url(../images/iphone-landscape.png);
+    padding: 23px 0 24px 0px;
+}
+.iphone-5-portrait {
+    background-image: url(../images/iphone-5-portrait.png);
+    padding: 103px 0 117px 0px;
+}
+.iphone-5-landscape {
+    background-image: url(../images/iphone-5-landscape.png);
+    padding: 22px 0 24px 0px;
+}
+.iphone-6-portrait {
+    /* background-image: url(../images/iphone-6-portrait.png);
+    */
+    background-image: url(/../images/iphone-6-portrait.png);
+    padding: 103px 0 117px 0px;
+}
+.iphone-6-landscape {
+    /* background-image: url(../images/iphone-6-landscape.png);
+    */
+    background-image: url(/../images/iphone-6-landscape.png);
+    padding: 22px 0 24px 0px;
+}
+.iphone-6-plus-portrait {
+    /* background-image: url(../images/iphone-6-plus-portrait.png);
+    */
+    background-image: url(/../images/iphone-6-plus-portrait.png);
+    padding: 103px 0 117px 0px;
+}
+.iphone-6-plus-landscape {
+    /* background-image: url(../images/iphone-6-plus-landscape.png);
+    */
+    background-image: url(/../images/iphone-6-plus-landscape.png);
+    padding: 22px 0 24px 0px;
+}
+.ipad-portrait {
+    background-image: url(../images/ipad-portrait.png);
+    padding: 111px 0 113px 0;
+}
+.ipad-landscape {
+    background-image: url(../images/ipad-landscape.png);
+    padding: 101px 0 103px 0;
+}
+.android-240x320-portrait {
+    background-image: url(../images/android-240x320-portrait.png);
+    padding: 46px 0 80px 0;
+}
+.android-240x320-landscape {
+    background-image: url(../images/android-320x240-landscape.png);
+    padding: 14px 0 18px 0;
+}
+.android-nexus-4-landscape {
+    background-image: url(../images/android-nexus-4-landscape.png);
+    padding: 22px 0 28px 0;
+}
+.android-nexus-4-portrait {
+    background-image: url(../images/android-nexus-4-portrait.png);
+    padding: 68px 0 146px 0;
+}
+.kindle-portrait {
+    background-image: url(../images/kindle-portrait.png);
+    padding: 82px 0 149px 0;
+}
+.kindle-landscape {
+    background-image: url(../images/kindle-landscape.png);
+    padding: 98px 0 96px 0;
+}
+.android-240x320-portrait .flashingTop .time, .android-240x320-landscape  .flashingTop .time, .android-384x620-portrait .flashingTop .time {
+    float: right;
+    padding: 0px 4px 0px 0px;
+    line-height: 100%;
+}
+.android-620x384-landscape .flashingTop .time {
+    float: right;
+    padding: 0px 4px 0px 0px;
+    line-height: 100%;
+}
+.ipad-landscape span.time, .ipad-portrait span.time {
+    color: #bbb;
+}
+span.time {
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+.android-240x320-portrait .flashingTop span.time span, .android-240x320-landscape .flashingTop span.time span, .android-515x295-portrait .flashingTop .time span, .android-515x295-landscape .flashingTop .time span {
+    font-size: 10px;
+}
+.kindle-landscape .time, .kindle-portrait .time {
+    font-size: 14px;
+    top: 9px;
+    position: relative;
+}
+.kindle-landscape .time span, .kindle-portrait .time span {
+    font-size: 11px;
+}
+.kindle_name {
+    font-size: 17px;
+    font-weight: 200;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 30px;
+    line-height: 100%;
+}
+.portrait {
+    margin-left: -289px;
+    left: 50%;
+    top: 93px;
+}
+.landscape {
+    margin-left: -500px;
+    left: 50%;
+    top: 109px;
+}
+.kindle_name.portrait {
+    width: 250px;
+}
+.kindle_name.landscape {
+    width: 400px;
+}
+
+/* * Devices styles end */
+/* * Job ad styles start */
+.jobAd {
+    background: #fff;
+    border: 1px solid #45BBDE;
+    border-radius: 3px;
+    max-width: 700px;
+    margin: 70px auto 0px auto;
+    font-style: normal;
+    line-height: 170%;
+    font-size: 18px;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    padding: 20px 0px;
+}
+.jobAd.second {
+    margin-top: 30px;
+}
+.jobAd strong {
+    font-weight: normal;
+    color: #222;
+}
+.jobAd a {
+    color: #2082BD;
+    border-bottom: 1px solid #B2E0F4;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.jobAd a:hover {
+    color: #222;
+    border-bottom: 1px solid #999;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.jobAd .js_fade {
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.jobAd .js_show {
+    opacity: 1;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.jobAd .js_hide {
+    display: none;
+}
+
+/* *
+* Bit of a hack to get error style */
+.jobAd.error {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    font-style: normal;
+}
+.jobAd.error a {
+    color: #1BA4D6;
+    border-bottom: 1px solid #EFEFEF;
+    margin: 6px 0px;
+    display: inline-block;
+}
+.small {
+    font-size: 14px;
+    border-top: 1px solid #e1ebee;
+    padding-top: 11px;
+}
+.email_input {
+    float: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.email_input input[type="text"] {
+    border: 1px solid #e1ebee;
+    background: white;
+    border-radius: 2px;
+    padding: 6px;
+    font-size: 14px;
+    color: #666;
+    width: 300px;
+    outline: 1px;
+    font-family: Georgia;
+}
+.email_input input[type="text"].error {
+    border: 1px solid red;
+}
+.email_input input[type="submit"] {
+    font-family: Georgia;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 8px;
+    background: #53B0CC;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    min-height: 29px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.thanks {
+    margin-bottom: 5px;
+}
+.email_input input::-webkit-input-placeholder {
+    color: #ccc;
+}
+.email_input input:-moz-placeholder {
+    color: #ccc;
+}
+
+/* * Job ad styles end */
+/* * Styles for the top bar start */
+
+.who {
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+.who p {
+    margin: 0;
+    color: #A4AFB3;
+}
+.who span {
+    opacity: 0.4;
+    margin: 0px 6px;
+}
+.who a {
+    color: white;
+    text-decoration: none;
+}
+.who a:hover {
+    border-bottom: 1px solid white;
+}
+form {
+    margin: 7px 0px 0px 20px;
+    padding: 0px;
+    float: left;
+}
+input#url:focus {
+    background: #24383e;
+    color: white;
+}
+input::-webkit-input-placeholder {
+    color: #4a6469;
+}
+input:-moz-placeholder {
+    color: #4a6469;
+}
+#tools input[type="submit"] {
+    background: #8a9a9f;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 11px;
+    opacity: 1;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+    margin-left: 5px;
+}
+
+/* * Styles for the top bar end */
+/* * Styles for the message area start */
+
+.message {
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    text-align: center;
+    color: #EB2E45;
+    margin: 50px auto 0px auto;
+    font-weight: 300;
+    border: 1px solid #eaeaea;
+    max-width: 420px;
+    background: #F5F5F5;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+.message span {
+    color: #555;
+    display: block;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.message_wrapper {
+    min-width: 1024px;
+}
+
+/* * Styles for the message area end */
+}
